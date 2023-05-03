@@ -1,0 +1,35 @@
+2023-05-02T20:42:18+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php:1230
+Stack trace:
+#0 /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php(1230): preg_match('/^usp_error_3$/...', Array)
+#1 /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-shortcodes.php(169): usp_classes('usp-input,usp-i...', 'usp_error_3')
+#2 /home2/jakeslur/public_html/wp-includes/shortcodes.php(355): usp_input_title('', '', 'usp_title')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home2/jakeslur/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(usp_ti...', 'do_shortcode_ta...', '\n<style type="t...')
+#5 /home2/jakeslur/public_html/wp-includes/class-wp-hook.php(308): do_shortcode('\n<style type="t...')
+#6 /home2/jakeslur/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<style type="t...', Array)
+#7 /home2/jakeslur/public_html/wp-content/themes/Divi/epanel/custom_functions.php(526): apply_filters('the_content', '<h3>Welcome to ...')
+#8 /home2/jakeslur/public_html/wp-content/themes/Divi/epanel/custom_functions.php(569): et_first_image()
+#9 /home2/jakeslur/public_html/wp-content/themes/Divi/single.php(59): get_thumbnail(1080, 675, 'et_featured_ima...', false, 'Multimedia Uplo...', false, 'Blogimage')
+#10 /home2/jakeslur/public_html/wp-includes/template-loader.php(106): include('/home2/jakeslur...')
+#11 /home2/jakeslur/public_html/wp-blog-header.php(19): require_once('/home2/jakeslur...')
+#12 /home2/jakeslur/public_html/index.php(17): require('/home2/jakeslur...')
+#13 {main}
+  thrown in /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php on line 1230
+
+2023-05-02T20:49:10+00:00 CRITICAL Uncaught TypeError: preg_match(): Argument #2 ($subject) must be of type string, array given in /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php:1230
+Stack trace:
+#0 /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php(1230): preg_match('/^usp_error_3$/...', Array)
+#1 /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-shortcodes.php(169): usp_classes('usp-input,usp-i...', 'usp_error_3')
+#2 /home2/jakeslur/public_html/wp-includes/shortcodes.php(355): usp_input_title('', '', 'usp_title')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /home2/jakeslur/public_html/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(usp_ti...', 'do_shortcode_ta...', '\n<style type="t...')
+#5 /home2/jakeslur/public_html/wp-includes/class-wp-hook.php(308): do_shortcode('\n<style type="t...')
+#6 /home2/jakeslur/public_html/wp-includes/plugin.php(205): WP_Hook->apply_filters('\n<style type="t...', Array)
+#7 /home2/jakeslur/public_html/wp-content/themes/Divi/epanel/custom_functions.php(526): apply_filters('the_content', '<h3>Welcome to ...')
+#8 /home2/jakeslur/public_html/wp-content/themes/Divi/epanel/custom_functions.php(569): et_first_image()
+#9 /home2/jakeslur/public_html/wp-content/themes/Divi/single.php(59): get_thumbnail(1080, 675, 'et_featured_ima...', false, 'Multimedia Uplo...', false, 'Blogimage')
+#10 /home2/jakeslur/public_html/wp-includes/template-loader.php(106): include('/home2/jakeslur...')
+#11 /home2/jakeslur/public_html/wp-blog-header.php(19): require_once('/home2/jakeslur...')
+#12 /home2/jakeslur/public_html/index.php(17): require('/home2/jakeslur...')
+#13 {main}
+  thrown in /home2/jakeslur/public_html/wp-content/plugins/usp-pro/inc/usp-forms.php on line 1230
